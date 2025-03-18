@@ -32,5 +32,9 @@ public:
         }
 
     }
+    string getName() const {return name;}
+    double getWeight() const {return weight;}
+    vector<double> getPrice() const {return price;}
+
 
 }
